@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seguros</title>
+    <meta name="description" content="Tenemos un seguro para cada necesidad. Cotizá tu seguro simple, rápido y sin vueltas">
+    <meta name="keywords" content="Seguro de Vida, Seguro de Auto, Seguro de Moto, Seguro contra Robo, Seguro Todo Riesgo, Seguro de Hogar, Seguro de Viaje, Seguro de Bicicleta, Seguro de Celular, Seguro de Notebook, Seguro ART, seguros corporativos">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 <body>
@@ -15,7 +19,7 @@
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a href="./index.html"><img src="../imag/logo-ib.svg" alt="IB Brokers"></a>
+            <a href="../index.html"><img src="../imag/logo-ib.svg" alt="IB Brokers"></a>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,7 +53,9 @@
 
 <main>
 
-    <Section class="section-1-seguros">
+    <Section class="section-1-seguros" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
+
         <div class="div-introduccion-seguros">
             <p class="seguros__subtitle">SEGUROS</p>
             <h1>Tenemos un seguro para cada necesidad.</h1>
@@ -60,7 +66,7 @@
     </Section>
 
     <section class="section-2-seguros" id="id-seguros">
-        <div class="seguro-movilidad">
+        <div class="seguro-movilidad" data-aos="fade-right">
             <img class="imag-setion-2-seguros" src="../imag/Movilidad.jpg" alt="Imagen Seguro de Movilidad">
             
             <div class="info-seguro-movilidad">
@@ -99,10 +105,10 @@
     </section>
 
     <section class="section-3-personales">
-        <div class="seguro-personales">
+        <div class="seguro-personales" data-aos="fade-left">
 
             <div class="info-seguro-personales">
-                <h2>Seguros Corporativos</h2>
+                <h2>Seguros Personales</h2>
                 <p>Deja tus preocupaciones en nuestra manos y en nuestra experiencia. Contamos con más de 20 años en el mercado de seguros.
                 </p>
                     <div class="list-seguro-personales">
@@ -138,11 +144,11 @@
     </section>
 
     <section class="section-4-seguros">
-        <div class="seguro-corporativos">
+        <div class="seguro-corporativos" data-aos="fade-right">
             <img class="imag-setion-2-seguros" src="../imag/imag-corporativo.jpg" alt="Imagen Seguros Corporativos">
             
             <div class="info-seguro-corporativos">
-                <h2>Seguros de Movilidad</h2>
+                <h2>Seguros Corporativos</h2>
                 <p>Contamos con todo tipo de seguros para que te muevas con tranquilidad. Sabemos lo importante que es para vos sea cual sea tu modo de movilidad, por eso te ofrecemos una amplia opciones de cobertura para que elijas la que mas se adapte a vos. 
                 </p>
                     <div class="list-seguro-corporativos">
@@ -268,5 +274,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

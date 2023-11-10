@@ -1,0 +1,94 @@
+/*contacto*/
+.section-1-contacto {
+    max-width: 1300px;
+    margin: 6rem auto;
+    padding: 1rem;
+
+    .formulario-contacto-title, .form {
+        width: 50%;
+
+        @media (max-width: 950px) {
+            width: 100%;
+        } 
+    }
+
+    .div-formulario-contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+
+        @media (max-width: 950px) {
+            flex-direction: column;
+            gap: 3rem;
+        }
+    
+        .seguros__subtitle {
+            font-family: 'Rubik', sans-serif;
+            font-size: 12px;
+            line-height: 17px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .boton-whatsapp-contacto {
+        display: flex;
+        justify-content: start;
+        gap: 1rem;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: $colorPrincipal;
+        border: 0;
+        border-radius: 50px;
+        margin-block: 2rem 4rem;    
+    }
+
+    .boton-whatsapp-contacto {
+        transition: 1s;
+
+        p {
+            color: white;
+        } 
+        
+        &:hover {
+            background-color: $colorSecundario;
+            transform: translate(10px, 0);
+        }
+    }
+
+    .form-style {
+        margin: 1rem 0;
+
+        .input-style{
+            border-radius: 10px;
+            padding: 0.5rem;
+            border: 1px solid #cacaca;
+            width: 100%;
+        }
+        
+        .input-style:focus {
+            border: 1px solid $colorPrincipal;
+        }
+        
+        .bottom-form {
+            width: 150px;
+            background-color: $colorPrincipal;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            border: 0;
+            padding: 0.5rem;
+            border-radius: 50px;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: $colorSecundario;
+                transform: scale(1.1);
+            }
+        }
+     }
+     
+}

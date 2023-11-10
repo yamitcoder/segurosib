@@ -1,0 +1,44 @@
+/*NAV*/
+header {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin: 0;
+
+}
+
+.container-fluid {
+    max-width: 1300px;
+    margin: 0.5rem;
+    
+}
+
+.navbar {
+    justify-content: center;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.navbar-nav {
+    gap: 0.5rem;
+}
+
+.nav-link {
+    color: $colorTerciario;
+}
+
+.navbar-nav .nav-link.active {
+    color: $colorPrincipal;
+}
+
+.nav-link:hover {
+    color: $colorPrincipal;
+}  
+
+.navbar-collapse {
+    margin-top: 20px;
+    gap: 0;
+}

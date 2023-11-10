@@ -1,0 +1,123 @@
+/*SERVICIOS*/
+.section-1-servicios {
+    background-color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .div-introduccion-servicios {
+        max-width: 700px;
+        margin: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .seguros__subtitle {
+            font-family: 'Rubik', sans-serif;
+            font-size: 12px;
+            line-height: 17px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.section-2-servicios {
+    background: linear-gradient(to right, #181c3541, #181c35a0),url("../imag/servicios.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    background-color: $colorFondo;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    p {
+        font-size: 2rem;
+        font-weight: 500;
+        color: white;
+        padding: 1rem;
+        margin: 14rem 0;
+        text-align: center;
+    }
+
+}
+
+
+.section-3-servicios{
+    max-width: 1300px;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    .div-title-features-servicios {
+        h2 {
+            max-width: 900px;
+            padding: 1rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .div-features-servicios {
+        max-width: 1300px;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5rem;
+
+        @media (max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
+
+        img {
+            margin-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.section-4-servicios{
+    max-width: 1300px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+        margin-bottom: 0px;
+    }
+
+    .div-section-4-a {
+        background-image: url(../imag/Gestiones-imag.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+
+        @media (max-width: 900px) {
+            height: 30rem;
+        }
+    }
+
+    .div-section-4-b {
+        padding: 8rem 6rem;  
+        background-color: $colorPrincipal;
+
+        @media (max-width: 900px) {
+            padding: 8rem 2rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        
+        p {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+/*PROPIEDADES GENERALES*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #001b51;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: $colorTerciario;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: $colorTexto;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-family: "rubik";
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+ol, ul {
+    padding-left: 0;
+}

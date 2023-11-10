@@ -1,0 +1,115 @@
+/*QUIENES SOMOS*/
+.section-1-quienes-somos {
+    background-color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .div-introduccion-quienes-somos {
+        max-width: 700px;
+        margin: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+.section-2-quienes-somos {
+    background-image: url(../imag/quienes-somos-img-IB.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    .div-skill-quienes-somos {
+        max-width: 1300px;
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        margin: 10rem 0;
+        padding: 1rem;
+
+        @media (max-width: 900px) {
+            flex-direction: column;
+            gap: 3rem;
+            margin: 2rem 2rem;
+            }
+
+        h3 {
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        p {
+            color: white;
+            text-align: center;
+        }
+    }
+
+}
+
+
+.section-3-quienes-somos {
+    max-width: 1300px;
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 2rem;
+        
+    }
+    
+
+
+    .div-title-features-quienes-somos {
+        width: 400px;
+
+        h2 {
+            font-size: 32px;
+            line-height: 39px;
+            font-weight: 500;
+            padding: 1rem;
+            margin-top: 4.5rem;
+        }
+    }
+
+    .div-features-quienes-somos {
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        padding: 1rem;
+
+        @media (max-width: 900px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            padding: 1rem;
+            }
+
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+@media (max-width: 900px) {
+    .section-3-quienes-somos {
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 2rem;
+    
+    }
+
+}

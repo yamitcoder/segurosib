@@ -1,0 +1,102 @@
+/*SEGUROS*/
+
+
+.div-introduccion-seguros {
+    max-width: 700px;
+    margin: 6rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .seguros__subtitle {
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        background-color: $colorPrincipal;
+        color: white;
+        border-radius: 50px;
+        padding: 0.8rem;
+        width: 200px;
+        letter-spacing: 2px;
+        margin-top: 2rem;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: $colorSecundario;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.section-2-seguros, .section-4-seguros {
+    background-color: $colorFondo;
+    padding-block: 6rem;
+}
+
+.seguro-movilidad, .seguro-personales, .seguro-corporativos {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+
+    @media (max-width: 1060px) {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .imag-setion-2-seguros {
+        width: 600px;
+        border-radius: 50px;
+
+        @media (max-width: 1060px) {
+            width: 100%;
+        }
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    
+    }
+
+    .list-seguro-movilidad, .list-seguro-personales, .list-seguro-corporativos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3rem; 
+
+
+        .item-seguro-movilidad, .item-seguro-personales, .item-seguro-corporativos {
+            display: flex;
+            justify-content: start;
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid white;
+            transition: 0.5s;
+
+            &:hover {
+                transform: translate(10px, 0);
+            }
+        }
+    }
+}
+
+
+.section-3-personales {
+    padding-block: 6rem;
+}
