@@ -53,11 +53,13 @@
     justify-content: start;
 
     .div-title-features-servicios {
+
         h2 {
             max-width: 900px;
             padding: 1rem;
             margin-bottom: 5rem;
         }
+
     }
 
     .div-features-servicios {
@@ -74,6 +76,14 @@
         img {
             margin-bottom: 1rem;
             margin-bottom: 2rem;
+        }
+
+        .animate-feature {
+            transition: 1s;
+
+            &:hover{
+                transform: translate(0px, -15px);
+            }
         }
     }
 }
